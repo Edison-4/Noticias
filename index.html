@@ -13,47 +13,47 @@
             <h1>EL DIARIO DIGITAL</h1>
         </div>
         <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Política</a></li>
-                <li><a href="#">Tecnología</a></li>
-                <li><a href="#">Deportes</a></li>
+            <ul id="menu-categorias">
+                <li><a href="#" data-filtro="todas">Inicio</a></li>
+                <li><a href="#" data-filtro="tecnologia">Tecnología</a></li>
+                <li><a href="#" data-filtro="musica">Música</a></li>
+                <li><a href="#" data-filtro="ciencia">Ciencia</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="contenedor">
-        <section class="noticia-destacada">
-            <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Noticia principal">
+        <section class="noticia-destacada item-noticia" data-categoria="tecnologia">
+            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Código Python">
             <div class="contenido-destacado">
                 <span class="categoria">Tecnología</span>
-                <h2><a href="#">El impacto de la Inteligencia Artificial en el desarrollo web</a></h2>
-                <p>Descubre cómo las nuevas herramientas están cambiando la forma en que los programadores construyen el futuro del internet...</p>
+                <h2><a href="#">Nueva actualización de Python mejora el rendimiento en programación orientada a objetos</a></h2>
+                <p>La comunidad de desarrolladores celebra las nuevas características de encapsulamiento y herencia que facilitarán la creación de aplicaciones más robustas...</p>
             </div>
         </section>
 
         <section class="grid-noticias">
-            <article class="tarjeta-noticia">
-                <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Economía">
+            <article class="tarjeta-noticia item-noticia" data-categoria="tecnologia">
+                <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Base de datos">
                 <div class="info-noticia">
-                    <span class="categoria">Economía</span>
-                    <h3><a href="#">Los mercados globales cierran al alza esta semana</a></h3>
+                    <span class="categoria">Tecnología</span>
+                    <h3><a href="#">Las mejores prácticas para optimizar tus consultas SQL en 2026</a></h3>
                 </div>
             </article>
 
-            <article class="tarjeta-noticia">
-                <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Deportes">
+            <article class="tarjeta-noticia item-noticia" data-categoria="musica">
+                <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Concierto">
                 <div class="info-noticia">
-                    <span class="categoria">Deportes</span>
-                    <h3><a href="#">Nuevo récord histórico en el campeonato nacional</a></h3>
+                    <span class="categoria">Música</span>
+                    <h3><a href="#">Eros Ramazzotti anuncia gira mundial y sorprende tocando "Otra como tú" en vivo</a></h3>
                 </div>
             </article>
 
-            <article class="tarjeta-noticia">
-                <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ciencia">
+            <article class="tarjeta-noticia item-noticia" data-categoria="ciencia">
+                <img src="https://images.unsplash.com/photo-1538357876127-99e23eb00e40?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Koala">
                 <div class="info-noticia">
                     <span class="categoria">Ciencia</span>
-                    <h3><a href="#">Descubren un nuevo exoplaneta habitable</a></h3>
+                    <h3><a href="#">Santuario australiano reporta un aumento récord en la población de koalas rescatados</a></h3>
                 </div>
             </article>
         </section>
