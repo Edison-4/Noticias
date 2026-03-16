@@ -1,7 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Diario Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span id="fecha-actual"></span>
+            <h1>EL DIARIO DIGITAL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Deportes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <section class="noticia-destacada">
+            <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Noticia principal">
+            <div class="contenido-destacado">
+                <span class="categoria">Tecnología</span>
+                <h2><a href="#">El impacto de la Inteligencia Artificial en el desarrollo web</a></h2>
+                <p>Descubre cómo las nuevas herramientas están cambiando la forma en que los programadores construyen el futuro del internet...</p>
+            </div>
+        </section>
+
+        <section class="grid-noticias">
             <article class="tarjeta-noticia">
-                <img src="https://images.unsplash.com/photo-ruta-de-tu-imagen" alt="Descripción de la foto">
+                <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Economía">
                 <div class="info-noticia">
-                    <span class="categoria">Cultura</span>
-                    <h3><a href="pagina-de-la-noticia.html">El titular de tu nueva noticia va aquí</a></h3>
+                    <span class="categoria">Economía</span>
+                    <h3><a href="#">Los mercados globales cierran al alza esta semana</a></h3>
                 </div>
             </article>
+
+            <article class="tarjeta-noticia">
+                <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Deportes">
+                <div class="info-noticia">
+                    <span class="categoria">Deportes</span>
+                    <h3><a href="#">Nuevo récord histórico en el campeonato nacional</a></h3>
+                </div>
+            </article>
+
+            <article class="tarjeta-noticia">
+                <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ciencia">
+                <div class="info-noticia">
+                    <span class="categoria">Ciencia</span>
+                    <h3><a href="#">Descubren un nuevo exoplaneta habitable</a></h3>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 El Diario Digital. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
